@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-babybuddy
+external_type: github_stable
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_GIT_BRANCH = 'master'
+  - EXT_USER = 'babybuddy'
+  - EXT_REPO = 'babybuddy'
+  - BUILD_VERSION_ARG = 'BABYBUDDY_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-babybuddy'
+  - CONTAINER_NAME = 'babybuddy'
+  - DOCKERHUB_IMAGE = 'linuxserver/babybuddy'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/babybuddy'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/babybuddy'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8000'
+  - CI_SSL='false'
+  - CI_DELAY='60'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH='/'
