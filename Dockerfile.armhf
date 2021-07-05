@@ -15,7 +15,8 @@ RUN \
     jpeg-dev \
     libffi-dev \
     postgresql-dev \
-    python3-dev && \
+    python3-dev \
+    zlib-dev && \
   echo "**** install runtime packages ****" && \
   apk add --no-cache \
     jpeg \
