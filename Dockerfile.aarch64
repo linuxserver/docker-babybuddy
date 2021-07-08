@@ -38,7 +38,7 @@ RUN \
   cd /app/babybuddy && \
   pip3 install -U --no-cache-dir \
     pip && \
-  pip install -U --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
+  pip install -U --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
