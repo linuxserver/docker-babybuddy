@@ -39,6 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "25.07.21:", desc: "Add libpq for postgresql." }
   - { date: "08.07.21:", desc: "Fix pip install issue." }
   - { date: "05.07.21:", desc: "Update Gunicorn parameters to prevent `WORKER_TIMEOUT` issue." }
   - { date: "22.06.21:", desc: "Initial release." }
