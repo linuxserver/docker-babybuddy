@@ -21,6 +21,7 @@ RUN \
   apk add --no-cache \
     jpeg \
     libffi \
+    libpq \
     py3-pip \
     python3 && \
   echo "**** install babybuddy ****" && \
