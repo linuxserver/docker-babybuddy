@@ -5,7 +5,7 @@ rm -rf /app/babybuddy/{data,media}
 ln -s /config/data /app/babybuddy/data
 ln -s /config/media /app/babybuddy/media
 
-cd /app/babybuddy
+cd /app/babybuddy || exit
 if [ ! -f "/config/.secretkey" ]; then
     echo "**** No secret key found, generating one ****"
     python3 manage.py shell -c 'from django.core.management import utils; print(utils.get_random_secret_key())' \
