@@ -202,6 +202,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **14.08.21:** - Fix setting default env vars.
 * **25.07.21:** - Add libpq for postgresql.
 * **08.07.21:** - Fix pip install issue.
 * **05.07.21:** - Update Gunicorn parameters to prevent `WORKER_TIMEOUT` issue.

@@ -11,12 +11,37 @@ if [ ! -f "/config/.secretkey" ]; then
     python3 manage.py shell -c 'from django.core.management import utils; print(utils.get_random_secret_key())' \
         | tr -d '\n' > /config/.secretkey
 fi
-export \
-    DJANGO_SETTINGS_MODULE="babybuddy.settings.base" \
-    ALLOWED_HOSTS="${ALLOWED_HOSTS:-*}" \
-    TIME_ZONE="${TZ:-UTC}" \
-    DEBUG="${DEBUG:-False}" \
-    SECRET_KEY="${SECRET_KEY:-`cat /config/.secretkey`}"
+
+if [ -z "$DJANGO_SETTINGS_MODULE" ]; then
+    echo "**** DJANGO_SETTINGS_MODULE not found, setting default ****"
+    export DJANGO_SETTINGS_MODULE="babybuddy.settings.base" 
+    printf "%s" "${DJANGO_SETTINGS_MODULE}" > /var/run/s6/container_environment/DJANGO_SETTINGS_MODULE
+fi
+if [ -z "$ALLOWED_HOSTS" ]; then
+    echo "**** ALLOWED_HOSTS not found, setting default ****"
+    export ALLOWED_HOSTS="*" 
+    printf "%s" "${ALLOWED_HOSTS}" > /var/run/s6/container_environment/ALLOWED_HOSTS
+fi
+if [ -z "$TZ" ]; then
+    echo "**** TIME_ZONE not found, setting default ****"
+    export TIME_ZONE="UTC"
+    printf "%s" "${TIME_ZONE}" > /var/run/s6/container_environment/TIME_ZONE
+else
+    export TIME_ZONE=$TZ
+    printf "%s" "${TZ}" > /var/run/s6/container_environment/TIME_ZONE
+fi
+if [ -z "$DEBUG" ]; then
+    echo "**** DEBUG not found, setting default ****"
+    export DEBUG="False" 
+    printf "%s" "${DEBUG}" > /var/run/s6/container_environment/DEBUG
+fi
+if [ -z "$SECRET_KEY" ]; then
+    echo "**** SECRET_KEY not found, setting generated one ****"
+    SECRET_KEY=$(cat /config/.secretkey)
+    export SECRET_KEY
+    printf "%s" "${SECRET_KEY}" > /var/run/s6/container_environment/SECRET_KEY
+fi
+
 python3 manage.py migrate --noinput 
 python3 manage.py createcachetable
 

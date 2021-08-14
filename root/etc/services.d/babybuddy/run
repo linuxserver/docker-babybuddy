@@ -2,13 +2,6 @@
 
 cd /app/babybuddy || exit
 
-export \
-    DJANGO_SETTINGS_MODULE="babybuddy.settings.base" \
-    ALLOWED_HOSTS="${ALLOWED_HOSTS:-*}" \
-    TIME_ZONE="${TZ:-UTC}" \
-    DEBUG="${DEBUG:-False}" \
-    SECRET_KEY="${SECRET_KEY:-`cat /config/.secretkey`}"
-
 exec \
     s6-setuidgid abc gunicorn babybuddy.wsgi -b :8000 --log-level=info \
         --worker-tmp-dir=/dev/shm --log-file=- \
