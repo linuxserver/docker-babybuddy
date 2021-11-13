@@ -14,6 +14,7 @@ RUN \
     curl \
     jpeg-dev \
     libffi-dev \
+    libxml2-dev \
     postgresql-dev \
     python3-dev \
     zlib-dev && \
@@ -22,6 +23,7 @@ RUN \
     jpeg \
     libffi \
     libpq \
+    py3-lxml \
     py3-pip \
     python3 && \
   echo "**** install babybuddy ****" && \
