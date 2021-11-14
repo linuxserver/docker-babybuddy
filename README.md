@@ -203,6 +203,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **14.11.21:** - Add lxml dependencies.
 * **25.07.21:** - Add libpq for postgresql.
 * **08.07.21:** - Fix pip install issue.
 * **05.07.21:** - Update Gunicorn parameters to prevent `WORKER_TIMEOUT` issue.
