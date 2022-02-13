@@ -22,7 +22,7 @@ libintl-0.21-r0
 libjpeg-turbo-2.1.0-r0
 libjpeg-turbo-utils-2.1.0-r0
 libldap-2.4.58-r0
-libpq-13.5-r0
+libpq-13.6-r0
 libproc-3.3.17-r0
 libretls-3.3.3p1-r2
 libsasl-2.1.27-r12
