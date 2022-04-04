@@ -17,4 +17,8 @@ server {
 		root /app/babybuddy/;
 	}
 
+	location ^~ /static/  {
+		root /app/babybuddy/;
+	}
+
 }
