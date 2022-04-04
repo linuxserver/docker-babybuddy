@@ -10,6 +10,6 @@ export \
     SECRET_KEY="${SECRET_KEY:-`cat /config/.secretkey`}"
 
 exec \
-    s6-setuidgid abc gunicorn babybuddy.wsgi -b :8000 --log-level=info \
+    s6-setuidgid abc gunicorn babybuddy.wsgi -b 127.0.0.1:3000 --log-level=info \
         --worker-tmp-dir=/dev/shm --log-file=- \
         --workers=2 --threads=4 --worker-class=gthread

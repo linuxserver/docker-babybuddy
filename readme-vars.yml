@@ -39,6 +39,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "03.04.22:", desc: "Rebase to alpine-nginx baseimage." }
   - { date: "11.12.21:", desc: "Add py3-mysqlclient for mysql/mariadb." }
   - { date: "14.11.21:", desc: "Add lxml dependencies (temp fix for amd64 by force compiling lxml)." }
   - { date: "25.07.21:", desc: "Add libpq for postgresql." }

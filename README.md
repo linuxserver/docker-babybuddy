@@ -204,6 +204,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.04.22:** - Rebase to alpine-nginx baseimage.
 * **11.12.21:** - Add py3-mysqlclient for mysql/mariadb.
 * **14.11.21:** - Add lxml dependencies (temp fix for amd64 by force compiling lxml).
 * **25.07.21:** - Add libpq for postgresql.
