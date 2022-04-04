@@ -25,6 +25,7 @@ param_ports:
 param_usage_include_env: true
 param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London" }
+  - { env_var: "CSRF_TRUSTED_ORIGINS", env_value: "http://127.0.0.1:8000,https://babybuddy.domain.com", desc: "Add any address you'd like to access babybuddy at (comma separated, no spaces)" }
 
 # optional container parameters
 opt_param_usage_include_env: false
@@ -39,7 +40,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
-  - { date: "03.04.22:", desc: "Rebase to alpine-nginx baseimage." }
+  - { date: "03.04.22:", desc: "Rebase to alpine-nginx baseimage. Add `CSRF_TRUSTED_ORIGINS` env var." }
   - { date: "11.12.21:", desc: "Add py3-mysqlclient for mysql/mariadb." }
   - { date: "14.11.21:", desc: "Add lxml dependencies (temp fix for amd64 by force compiling lxml)." }
   - { date: "25.07.21:", desc: "Add libpq for postgresql." }
