@@ -79,6 +79,7 @@ services:
     container_name: babybuddy
     environment:
       - TZ=Europe/London
+      - CSRF_TRUSTED_ORIGINS=http://127.0.0.1:8000,https://babybuddy.domain.com
     volumes:
       - /path/to/appdata:/config
     ports:
@@ -92,6 +93,7 @@ services:
 docker run -d \
   --name=babybuddy \
   -e TZ=Europe/London \
+  -e CSRF_TRUSTED_ORIGINS=http://127.0.0.1:8000,https://babybuddy.domain.com \
   -p 8000:8000 \
   -v /path/to/appdata:/config \
   --restart unless-stopped \
@@ -106,6 +108,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | :----: | --- |
 | `-p 8000` | the port for the web ui |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
+| `-e CSRF_TRUSTED_ORIGINS=http://127.0.0.1:8000,https://babybuddy.domain.com` | Add any address you'd like to access babybuddy at (comma separated, no spaces) |
 | `-v /config` | Contains all relevant configuration and data. |
 
 ## Environment variables from files (Docker secrets)
@@ -204,6 +207,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **03.04.22:** - Rebase to alpine-nginx baseimage. Add `CSRF_TRUSTED_ORIGINS` env var.
 * **11.12.21:** - Add py3-mysqlclient for mysql/mariadb.
 * **14.11.21:** - Add lxml dependencies (temp fix for amd64 by force compiling lxml).
 * **25.07.21:** - Add libpq for postgresql.

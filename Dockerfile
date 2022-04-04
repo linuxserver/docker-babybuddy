@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.14
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.14
 
 # set version label
 ARG BUILD_DATE
@@ -44,8 +44,7 @@ RUN \
   cd /app/babybuddy && \
   pip3 install -U --no-cache-dir \
     pip && \
-  pip install lxml --no-binary :all: && \
-  pip install -U --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
+  pip install --no-cache-dir --ignore-installed --find-links https://wheel-index.linuxserver.io/alpine/ -r requirements.txt && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
