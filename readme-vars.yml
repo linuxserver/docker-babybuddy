@@ -14,7 +14,7 @@ available_architectures:
   - { arch: "{{ arch_armhf }}", tag: "arm32v7-latest"}
 
 # container parameters
-common_param_env_vars_enabled: false
+common_param_env_vars_enabled: true
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
@@ -40,6 +40,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "28.05.22:", desc: "Add missing PUID/PGID vars to readme." }
   - { date: "03.04.22:", desc: "Rebase to alpine-nginx baseimage. Add `CSRF_TRUSTED_ORIGINS` env var." }
   - { date: "11.12.21:", desc: "Add py3-mysqlclient for mysql/mariadb." }
   - { date: "14.11.21:", desc: "Add lxml dependencies (temp fix for amd64 by force compiling lxml)." }
