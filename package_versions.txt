@@ -32,7 +32,7 @@ libjpeg-turbo-2.1.0-r0
 libjpeg-turbo-utils-2.1.0-r0
 libldap-2.4.58-r0
 libmagic-5.40-r1
-libpq-13.7-r0
+libpq-13.8-r0
 libproc-3.3.17-r0
 libressl3.3-libcrypto-3.3.6-r0
 libressl3.3-libssl-3.3.6-r0
@@ -41,7 +41,7 @@ libsasl-2.1.28-r0
 libssl1.1-1.1.1q-r0
 libstdc++-10.3.1_git20210424-r2
 libuuid-2.37.4-r0
-libxml2-2.9.14-r0
+libxml2-2.9.14-r1
 libxslt-1.1.35-r0
 linux-pam-1.5.1-r1
 logrotate-3.18.1-r3
