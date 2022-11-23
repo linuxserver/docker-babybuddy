@@ -1,0 +1,30 @@
+## Version 2022/11/23 - Changelog: https://github.com/linuxserver/docker-babybuddy/commits/main/root/defaults/default
+
+server {
+    listen 8000 default_server;
+    listen [::]:8000 default_server;
+
+    server_name _;
+
+    client_max_body_size 0;
+
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $http_host;
+        proxy_redirect off;
+    }
+
+    location ^~ /media/  {
+        root /app/www/public;
+    }
+
+    location ^~ /static/  {
+        root /app/www/public;
+    }
+
+    # deny access to .htaccess/.htpasswd files
+    location ~ /\.ht {
+        deny all;
+    }
+
+}
