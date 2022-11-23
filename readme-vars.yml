@@ -40,6 +40,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.11.22:", desc: "Rebase to Alpine 3.16, migrate to s6v3. Restructure nginx configs ([see changes announcement](https://info.linuxserver.io/issues/2022-08-20-nginx-base))." }
   - { date: "28.05.22:", desc: "Add missing PUID/PGID vars to readme." }
   - { date: "03.04.22:", desc: "Rebase to alpine-nginx baseimage. Add `CSRF_TRUSTED_ORIGINS` env var." }
   - { date: "11.12.21:", desc: "Add py3-mysqlclient for mysql/mariadb." }

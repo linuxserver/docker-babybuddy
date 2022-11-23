@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+# Disable php-fpm service
+rm -rf /etc/s6-overlay/s6-rc.d/svc-php-fpm
+rm -rf /etc/s6-overlay/s6-rc.d/user/contents.d/svc-php-fpm
+
+exec /docker-mods
