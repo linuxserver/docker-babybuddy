@@ -1,7 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 export \
-    DJANGO_SETTINGS_MODULE="babybuddy.settings.base" \
+    DJANGO_SETTINGS_MODULE="${DJANGO_SETTINGS_MODULE:-babybuddy.settings.base}" \
     ALLOWED_HOSTS="${ALLOWED_HOSTS:-*}" \
     TIME_ZONE="${TZ:-UTC}" \
     DEBUG="${DEBUG:-False}" \
