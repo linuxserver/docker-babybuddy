@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bash
+# shellcheck shell=bash
 
 # Disable php-fpm service
 rm -rf /etc/s6-overlay/s6-rc.d/svc-php-fpm
