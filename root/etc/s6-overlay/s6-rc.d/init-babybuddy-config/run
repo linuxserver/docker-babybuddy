@@ -23,5 +23,6 @@ export \
 python3 manage.py migrate --noinput
 python3 manage.py createcachetable
 
+# permissions
 lsiown -R abc:abc \
     /config
