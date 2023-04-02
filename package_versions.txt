@@ -52,7 +52,7 @@ libattr                 2.5.1-r2               apk
 libbsd                  0.11.7-r0              apk     
 libbz2                  1.0.8-r4               apk     
 libc-utils              0.7.2-r3               apk     
-libcrypto3              3.0.8-r1               apk     
+libcrypto3              3.0.8-r3               apk     
 libcurl                 7.88.1-r1              apk     
 libedit                 20221030.3.1-r0        apk     
 libexpat                2.5.0-r0               apk     
@@ -66,7 +66,7 @@ libjpeg-turbo-utils     2.1.4-r0               apk
 libmd                   1.0.4-r0               apk     
 libpq                   15.2-r0                apk     
 libproc                 3.3.17-r2              apk     
-libssl3                 3.0.8-r1               apk     
+libssl3                 3.0.8-r3               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libuuid                 2.38.1-r1              apk     
 libxml2                 2.10.3-r1              apk     
@@ -87,7 +87,7 @@ nginx                   1.22.1-r0              apk
 odfpy                   1.4.1                  python  
 oniguruma               6.9.8-r0               apk     
 openpyxl                3.1.0                  python  
-openssl                 3.0.8-r1               apk     
+openssl                 3.0.8-r3               apk     
 pcre                    8.45-r2                apk     
 pcre2                   10.42-r0               apk     
 php-cli                 8.1.17                 binary  
@@ -129,7 +129,7 @@ ssl_client              1.35.0-r29             apk
 tablib                  3.3.0                  python  
 tenacity                8.2.0                  python  
 typing_extensions       4.4.0                  python  
-tzdata                  2022f-r1               apk     
+tzdata                  2023b-r1               apk     
 uritemplate             4.1.1                  python  
 urllib3                 1.26.14                python  
 utmps-libs              0.1.2.0-r1             apk     
