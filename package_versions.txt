@@ -7,7 +7,7 @@ PyYAML                  6.0                    python
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
-alpine-release          3.17.2-r0              apk     
+alpine-release          3.17.3-r0              apk     
 apache2-utils           2.4.56-r0              apk     
 apk-tools               2.12.10-r1             apk     
 apr                     1.7.2-r0               apk     
@@ -110,10 +110,10 @@ procps                  3.3.17-r2              apk
 psycopg2-binary         2.9.5                  python  
 py3-mysqlclient         2.1.1-r0               apk     
 pydantic                1.10.4                 python  
-python                  3.10.10                binary  
+python                  3.10.11                binary  
 python-dateutil         2.8.2                  python  
 python-dotenv           0.21.1                 python  
-python3                 3.10.10-r0             apk     
+python3                 3.10.11-r0             apk     
 pytz                    2022.7.1               python  
 readline                8.2.0-r0               apk     
 s3transfer              0.6.0                  python  
@@ -129,7 +129,7 @@ ssl_client              1.35.0-r29             apk
 tablib                  3.3.0                  python  
 tenacity                8.2.0                  python  
 typing_extensions       4.4.0                  python  
-tzdata                  2023b-r1               apk     
+tzdata                  2023c-r0               apk     
 uritemplate             4.1.1                  python  
 urllib3                 1.26.14                python  
 utmps-libs              0.1.2.0-r1             apk     
