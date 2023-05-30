@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.17
+FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.18
 
 # set version label
 ARG BUILD_DATE
@@ -44,11 +44,12 @@ RUN \
     /tmp/babybuddy.tar.gz -C \
     /app/www/public --strip-components=1 && \
   cd /app/www/public && \
-  python3 -m ensurepip && \
-  pip3 install -U --no-cache-dir \
+  python3 -m venv /lsiopy && \
+  pip install -U --no-cache-dir \
     pip \
     wheel && \
-  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/  -r requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
+    -r requirements.txt && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
