@@ -19,6 +19,7 @@ RUN \
     libffi-dev \
     libxml2-dev \
     libxslt-dev \
+    mariadb-dev \
     postgresql-dev \
     python3-dev \
     zlib-dev && \
@@ -29,7 +30,7 @@ RUN \
     libpq \
     libxml2 \
     libxslt \
-    py3-mysqlclient \
+    mariadb-connector-c \
     python3 && \
   echo "**** install babybuddy ****" && \
   if [ -z ${BABYBUDDY_VERSION+x} ]; then \
@@ -50,6 +51,8 @@ RUN \
     wheel && \
   pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
     -r requirements.txt && \
+  pip install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.18/ \
+    mysqlclient && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
