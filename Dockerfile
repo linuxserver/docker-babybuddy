@@ -30,6 +30,7 @@ RUN \
     libpq \
     libxml2 \
     libxslt \
+    mariadb-connector-c \
     python3 && \
   echo "**** install babybuddy ****" && \
   if [ -z ${BABYBUDDY_VERSION+x} ]; then \
