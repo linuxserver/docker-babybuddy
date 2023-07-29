@@ -1,9 +1,9 @@
 NAME                    VERSION                 TYPE   
 Django                  4.2.3                   python  
-Faker                   18.13.0                 python  
+Faker                   19.2.0                  python  
 MarkupPy                1.14                    python  
-Pillow                  10.0.0                  python  
-PyYAML                  6.0                     python  
+Pillow                  9.5.0                   python  
+PyYAML                  6.0.1                   python  
 alpine-baselayout       3.4.3-r1                apk     
 alpine-baselayout-data  3.4.3-r1                apk     
 alpine-keys             2.4-r1                  apk     
@@ -16,8 +16,8 @@ apr-util                1.6.3-r1                apk
 argon2-libs             20190702-r4             apk     
 asgiref                 3.7.2                   python  
 bash                    5.2.15-r5               apk     
-boto3                   1.28.1                  python  
-botocore                1.31.1                  python  
+boto3                   1.28.15                 python  
+botocore                1.31.15                 python  
 brotli-libs             1.0.9-r14               apk     
 busybox                 1.36.1                  binary  
 busybox                 1.36.1-r1               apk     
@@ -25,7 +25,7 @@ busybox-binsh           1.36.1-r1               apk
 ca-certificates         20230506-r0             apk     
 ca-certificates-bundle  20230506-r0             apk     
 coreutils               9.3-r1                  apk     
-curl                    8.1.2-r0                apk     
+curl                    8.2.0-r1                apk     
 defusedxml              0.7.1                   python  
 diff-match-patch        20230430                python  
 dj-database-url         2.0.0                   python  
@@ -43,7 +43,7 @@ djangorestframework     3.14.0                  python
 et-xmlfile              1.1.0                   python  
 gdbm                    1.23-r1                 apk     
 git                     2.40.1-r0               apk     
-gunicorn                20.1.0                  python  
+gunicorn                21.2.0                  python  
 jmespath                1.0.1                   python  
 jpeg                    9e-r1                   apk     
 jq                      1.6-r3                  apk     
@@ -54,7 +54,7 @@ libbsd                  0.11.7-r1               apk
 libbz2                  1.0.8-r5                apk     
 libc-utils              0.7.2-r5                apk     
 libcrypto3              3.1.1-r3                apk     
-libcurl                 8.1.2-r0                apk     
+libcurl                 8.2.0-r1                apk     
 libedit                 20221030.3.1-r1         apk     
 libexpat                2.5.0-r1                apk     
 libffi                  3.4.4-r2                apk     
@@ -81,13 +81,13 @@ linux-pam               1.5.2-r10               apk
 logrotate               3.21.0-r1               apk     
 mariadb-connector-c     3.3.5-r0                apk     
 mpdecimal               2.5.1-r2                apk     
-musl                    1.2.4-r0                apk     
+musl                    1.2.4-r1                apk     
 musl-utils              1.2.4-r0                apk     
 mysqlclient             2.2.0                   python  
 nano                    7.2-r1                  apk     
 ncurses-terminfo-base   6.4_p20230506-r0        apk     
 netcat-openbsd          1.219-r1                apk     
-nghttp2-libs            1.53.0-r0               apk     
+nghttp2-libs            1.55.1-r0               apk     
 nginx                   1.24.0-r6               apk     
 odfpy                   1.4.1                   python  
 oniguruma               6.9.8-r1                apk     
@@ -120,8 +120,8 @@ popt                    1.19-r2                 apk
 procps-ng               4.0.3-r1                apk     
 psycopg2-binary         2.9.6                   python  
 pyc                     0.1-r0                  apk     
-pydantic                2.0.2                   python  
-pydantic_core           2.1.2                   python  
+pydantic                2.1.1                   python  
+pydantic_core           2.4.0                   python  
 python                  3.11.4                  binary  
 python-dateutil         2.8.2                   python  
 python-dotenv           1.0.0                   python  
