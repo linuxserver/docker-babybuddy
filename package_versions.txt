@@ -20,7 +20,6 @@ bash                        5.2.15-r5               apk
 boto3                       1.28.15                 python  
 botocore                    1.31.15                 python  
 brotli-libs                 1.0.9-r14               apk     
-busybox                     1.36.1                  binary  
 busybox                     1.36.1-r2               apk     
 busybox-binsh               1.36.1-r2               apk     
 ca-certificates             20230506-r0             apk     
@@ -69,7 +68,7 @@ libjpeg-turbo-utils         2.1.5.1-r3              apk
 libmd                       1.0.4-r2                apk     
 libncursesw                 6.4_p20230506-r0        apk     
 libpanelw                   6.4_p20230506-r0        apk     
-libpq                       15.3-r0                 apk     
+libpq                       15.4-r0                 apk     
 libproc2                    4.0.3-r1                apk     
 libssl3                     3.1.2-r0                apk     
 libstdc++                   12.2.1_git20220924-r10  apk     
@@ -97,8 +96,6 @@ openssl                     3.1.2-r0                apk
 packaging                   23.1                    python  
 pcre                        8.45-r3                 apk     
 pcre2                       10.42-r1                apk     
-php-cli                     8.2.8                   binary  
-php-fpm                     8.2.8                   binary  
 php82                       8.2.8-r0                apk     
 php82-common                8.2.8-r0                apk     
 php82-ctype                 8.2.8-r0                apk     
@@ -123,7 +120,6 @@ psycopg2-binary             2.9.6                   python
 pyc                         0.1-r0                  apk     
 pydantic                    2.1.1                   python  
 pydantic_core               2.4.0                   python  
-python                      3.11.4                  binary  
 python-dateutil             2.8.2                   python  
 python-dotenv               1.0.0                   python  
 python3                     3.11.4-r0               apk     
