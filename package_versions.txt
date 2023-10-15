@@ -112,7 +112,7 @@ php82-xml                   8.2.10-r0               apk
 php82-xmlwriter             8.2.10-r0               apk     
 php82-zip                   8.2.10-r0               apk     
 pilkit                      3.0                     python  
-pip                         23.2.1                  python  
+pip                         23.3                    python  
 plotly                      5.17.0                  python  
 popt                        1.19-r2                 apk     
 procps-ng                   4.0.4-r0                apk     
