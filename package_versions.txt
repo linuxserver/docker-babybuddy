@@ -20,8 +20,8 @@ bash                      5.2.15-r5               apk
 boto3                     1.28.62                 python  
 botocore                  1.31.62                 python  
 brotli-libs               1.0.9-r14               apk     
-busybox                   1.36.1-r4               apk     
-busybox-binsh             1.36.1-r4               apk     
+busybox                   1.36.1-r5               apk     
+busybox-binsh             1.36.1-r5               apk     
 ca-certificates           20230506-r0             apk     
 ca-certificates-bundle    20230506-r0             apk     
 coreutils                 9.3-r1                  apk     
@@ -68,13 +68,13 @@ libjpeg-turbo-utils       2.1.5.1-r3              apk
 libmd                     1.0.4-r2                apk     
 libncursesw               6.4_p20230506-r0        apk     
 libpanelw                 6.4_p20230506-r0        apk     
-libpq                     15.4-r0                 apk     
+libpq                     15.5-r0                 apk     
 libproc2                  4.0.4-r0                apk     
 libssl3                   3.1.4-r1                apk     
 libstdc++                 12.2.1_git20220924-r10  apk     
 libunistring              1.1-r1                  apk     
 libuuid                   2.38.1-r8               apk     
-libxml2                   2.11.4-r0               apk     
+libxml2                   2.11.6-r0               apk     
 libxslt                   1.1.38-r0               apk     
 libzip                    1.9.2-r2                apk     
 linux-pam                 1.5.2-r10               apk     
@@ -136,7 +136,7 @@ six                       1.16.0                  python
 skalibs                   2.13.1.1-r1             apk     
 sqlite-libs               3.41.2-r2               apk     
 sqlparse                  0.4.4                   python  
-ssl_client                1.36.1-r4               apk     
+ssl_client                1.36.1-r5               apk     
 tablib                    3.5.0                   python  
 tenacity                  8.2.3                   python  
 typing_extensions         4.8.0                   python  
