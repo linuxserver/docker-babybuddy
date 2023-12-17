@@ -25,7 +25,7 @@ busybox-binsh             1.36.1-r5               apk
 ca-certificates           20230506-r0             apk     
 ca-certificates-bundle    20230506-r0             apk     
 coreutils                 9.3-r1                  apk     
-curl                      8.4.0-r0                apk     
+curl                      8.5.0-r0                apk     
 defusedxml                0.7.1                   python  
 diff-match-patch          20230430                python  
 dj-database-url           2.1.0                   python  
@@ -46,7 +46,7 @@ git                       2.40.1-r0               apk
 gunicorn                  21.2.0                  python  
 jmespath                  1.0.1                   python  
 jpeg                      9e-r1                   apk     
-jq                        1.6-r3                  apk     
+jq                        1.6-r4                  apk     
 jupyterlab-plotly         5.17.0                  npm     
 libacl                    2.3.1-r3                apk     
 libattr                   2.5.1-r4                apk     
@@ -54,7 +54,7 @@ libbsd                    0.11.7-r1               apk
 libbz2                    1.0.8-r5                apk     
 libc-utils                0.7.2-r5                apk     
 libcrypto3                3.1.4-r1                apk     
-libcurl                   8.4.0-r0                apk     
+libcurl                   8.5.0-r0                apk     
 libedit                   20221030.3.1-r1         apk     
 libexpat                  2.5.0-r1                apk     
 libffi                    3.4.4-r2                apk     
@@ -83,7 +83,7 @@ mariadb-connector-c       3.3.5-r0                apk
 mpdecimal                 2.5.1-r2                apk     
 musl                      1.2.4-r2                apk     
 musl-utils                1.2.4-r2                apk     
-mysqlclient               2.2.0                   python  
+mysqlclient               2.2.1                   python  
 nano                      7.2-r1                  apk     
 ncurses-terminfo-base     6.4_p20230506-r0        apk     
 netcat-openbsd            1.219-r1                apk     
@@ -112,7 +112,7 @@ php82-xml                 8.2.13-r0               apk
 php82-xmlwriter           8.2.13-r0               apk     
 php82-zip                 8.2.13-r0               apk     
 pilkit                    3.0                     python  
-pip                       23.3.1                  python  
+pip                       23.3.2                  python  
 plotly                    5.17.0                  python  
 popt                      1.19-r2                 apk     
 procps-ng                 4.0.4-r0                apk     
