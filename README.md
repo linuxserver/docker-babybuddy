@@ -81,7 +81,7 @@ services:
       - TZ=Etc/UTC
       - CSRF_TRUSTED_ORIGINS=http://127.0.0.1:8000,https://babybuddy.domain.com
     volumes:
-      - /path/to/appdata:/config
+      - /path/to/babybuddy/config:/config
     ports:
       - 8000:8000
     restart: unless-stopped
@@ -97,7 +97,7 @@ docker run -d \
   -e TZ=Etc/UTC \
   -e CSRF_TRUSTED_ORIGINS=http://127.0.0.1:8000,https://babybuddy.domain.com \
   -p 8000:8000 \
-  -v /path/to/appdata:/config \
+  -v /path/to/babybuddy/config:/config \
   --restart unless-stopped \
   lscr.io/linuxserver/babybuddy:latest
 ```
@@ -113,7 +113,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Etc/UTC` | specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List). |
 | `-e CSRF_TRUSTED_ORIGINS=http://127.0.0.1:8000,https://babybuddy.domain.com` | Add any address you'd like to access babybuddy at (comma separated, no spaces) |
-| `-v /config` | Contains all relevant configuration and data. |
+| `-v /config` | Persistent config files |
 
 ## Environment variables from files (Docker secrets)
 
@@ -276,6 +276,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **23.12.23:** - Rebase to Alpine 3.19 with php 8.3.
 * **05.07.23:** - Add standard HTTP/HTTPS listen ports 80 and 443, keeping 8000 for backwards compatibility.
 * **25.05.23:** - Rebase to Alpine 3.18, deprecate armhf.
 * **16.01.23:** - Rebase to Alpine 3.17.
