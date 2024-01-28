@@ -58,7 +58,7 @@ libattr                 2.5.1-r5               apk
 libbsd                  0.11.7-r3              apk     
 libbz2                  1.0.8-r6               apk     
 libc-utils              0.7.2-r5               apk     
-libcrypto3              3.1.4-r4               apk     
+libcrypto3              3.1.4-r5               apk     
 libcurl                 8.5.0-r0               apk     
 libedit                 20230828.3.1-r3        apk     
 libexpat                2.5.0-r2               apk     
@@ -75,7 +75,7 @@ libncursesw             6.4_p20231125-r0       apk
 libpanelw               6.4_p20231125-r0       apk     
 libpq                   16.1-r0                apk     
 libproc2                4.0.4-r0               apk     
-libssl3                 3.1.4-r4               apk     
+libssl3                 3.1.4-r5               apk     
 libstdc++               13.2.1_git20231014-r0  apk     
 libturbojpeg            3.0.1-r0               apk     
 libunistring            1.1-r2                 apk     
@@ -98,7 +98,7 @@ nginx                   1.24.0-r14             apk
 odfpy                   1.4.1                  python  
 oniguruma               6.9.9-r0               apk     
 openpyxl                3.1.2                  python  
-openssl                 3.1.4-r4               apk     
+openssl                 3.1.4-r5               apk     
 packaging               23.2                   python  
 pcre                    8.45-r3                apk     
 pcre2                   10.42-r2               apk     
