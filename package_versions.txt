@@ -24,7 +24,7 @@ busybox-binsh           1.36.1-r15             apk
 c-ares                  1.24.0-r1              apk     
 ca-certificates         20230506-r0            apk     
 ca-certificates-bundle  20230506-r0            apk     
-composer                2.6.6                  binary  
+composer                2.7.0                  binary  
 coreutils               9.4-r2                 apk     
 coreutils-env           9.4-r2                 apk     
 coreutils-fmt           9.4-r2                 apk     
@@ -73,7 +73,7 @@ libjpeg-turbo-utils     3.0.1-r0               apk
 libmd                   1.1.0-r0               apk     
 libncursesw             6.4_p20231125-r0       apk     
 libpanelw               6.4_p20231125-r0       apk     
-libpq                   16.1-r0                apk     
+libpq                   16.2-r0                apk     
 libproc2                4.0.4-r0               apk     
 libssl3                 3.1.4-r5               apk     
 libstdc++               13.2.1_git20231014-r0  apk     
@@ -89,7 +89,7 @@ mariadb-connector-c     3.3.8-r0               apk
 mpdecimal               2.5.1-r2               apk     
 musl                    1.2.4_git20230717-r4   apk     
 musl-utils              1.2.4_git20230717-r4   apk     
-mysqlclient             2.2.3                  python  
+mysqlclient             2.2.4                  python  
 nano                    7.2-r1                 apk     
 ncurses-terminfo-base   6.4_p20231125-r0       apk     
 netcat-openbsd          1.226-r0               apk     
@@ -147,7 +147,7 @@ ssl_client              1.36.1-r15             apk
 tablib                  3.5.0                  python  
 tenacity                8.2.3                  python  
 typing_extensions       4.9.0                  python  
-tzdata                  2023d-r0               apk     
+tzdata                  2024a-r0               apk     
 uritemplate             4.1.1                  python  
 urllib3                 2.0.7                  python  
 utmps-libs              0.1.2.2-r0             apk     
