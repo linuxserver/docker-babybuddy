@@ -19,8 +19,8 @@ bash                    5.2.21-r0              apk
 boto3                   1.34.127               python                   
 botocore                1.34.127               python                   
 brotli-libs             1.1.0-r1               apk                      
-busybox                 1.36.1-r18             apk                      
-busybox-binsh           1.36.1-r18             apk                      
+busybox                 1.36.1-r19             apk                      
+busybox-binsh           1.36.1-r19             apk                      
 c-ares                  1.27.0-r0              apk                      
 ca-certificates         20240226-r0            apk                      
 ca-certificates-bundle  20240226-r0            apk                      
@@ -122,7 +122,7 @@ php83-xmlwriter         8.3.8-r0               apk
 php83-zip               8.3.8-r0               apk                      
 pilkit                  3.0                    python                   
 pillow                  10.3.0                 python                   
-pip                     24.0                   python                   
+pip                     24.1                   python                   
 plotly                  5.22.0                 python                   
 popt                    1.19-r3                apk                      
 procps-ng               4.0.4-r0               apk                      
@@ -146,7 +146,7 @@ six                     1.16.0                 python
 skalibs                 2.14.0.1-r0            apk                      
 sqlite-libs             3.44.2-r0              apk                      
 sqlparse                0.5.0                  python                   
-ssl_client              1.36.1-r18             apk                      
+ssl_client              1.36.1-r19             apk                      
 tablib                  3.5.0                  python                   
 tabulate                0.9.0                  python                   
 tenacity                8.3.0                  python                   
