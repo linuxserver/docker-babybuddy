@@ -21,7 +21,7 @@ c-ares                  1.28.1-r0              apk
 ca-certificates         20240705-r0            apk                      
 ca-certificates-bundle  20240705-r0            apk                      
 catatonit               0.2.0-r0               apk                      
-composer                2.7.7                  binary                   
+composer                2.7.8                  binary                   
 coreutils               9.5-r1                 apk                      
 coreutils-env           9.5-r1                 apk                      
 coreutils-fmt           9.5-r1                 apk                      
@@ -96,7 +96,7 @@ ncurses-terminfo-base   6.4_p20240420-r0       apk
 netcat-openbsd          1.226-r0               apk                      
 nghttp2-libs            1.62.1-r0              apk                      
 nginx                   1.26.2-r0              apk                      
-numpy                   2.0.1                  python                   
+numpy                   2.1.0                  python                   
 odfpy                   1.4.1                  python                   
 oniguruma               6.9.9-r0               apk                      
 openpyxl                3.1.5                  python                   
@@ -127,14 +127,14 @@ plotly                  5.22.0                 python
 popt                    1.19-r3                apk                      
 procps-ng               4.0.4-r0               apk                      
 psycopg2-binary         2.9.9                  python                   
-pyc                     3.12.3-r1              apk                      
+pyc                     3.12.3-r2              apk                      
 pydantic                2.7.4                  python                   
 pydantic-core           2.18.4                 python                   
 python-dateutil         2.9.0.post0            python                   
 python-dotenv           1.0.1                  python                   
-python3                 3.12.3-r1              apk                      
-python3-pyc             3.12.3-r1              apk                      
-python3-pycache-pyc0    3.12.3-r1              apk                      
+python3                 3.12.3-r2              apk                      
+python3-pyc             3.12.3-r2              apk                      
+python3-pycache-pyc0    3.12.3-r2              apk                      
 pytz                    2024.1                 python                   
 pyyaml                  6.0.1                  python                   
 readline                8.2.10-r0              apk                      
