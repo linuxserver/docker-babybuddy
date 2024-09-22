@@ -104,7 +104,7 @@ oniguruma               6.9.9-r0               apk
 openpyxl                3.1.5                  python                   
 openssl                 3.3.2-r0               apk                      
 packaging               24.1                   python                   
-pandas                  2.2.2                  python                   
+pandas                  2.2.3                  python                   
 pcre                    8.45-r3                apk                      
 pcre2                   10.43-r0               apk                      
 php83                   8.3.10-r0              apk                      
