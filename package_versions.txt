@@ -98,7 +98,7 @@ ncurses-terminfo-base   6.4_p20240420-r1       apk
 netcat-openbsd          1.226-r0               apk                      
 nghttp2-libs            1.62.1-r0              apk                      
 nginx                   1.26.2-r0              apk                      
-numpy                   2.1.1                  python                   
+numpy                   2.1.2                  python                   
 odfpy                   1.4.1                  python                   
 oniguruma               6.9.9-r0               apk                      
 openpyxl                3.1.5                  python                   
