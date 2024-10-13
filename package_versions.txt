@@ -11,6 +11,7 @@ apr                     1.7.5-r0               apk
 apr-util                1.6.3-r1               apk                      
 argon2-libs             20190702-r5            apk                      
 asgiref                 3.8.1                  python                   
+babybuddy               UNKNOWN                npm                      
 bash                    5.2.26-r0              apk                      
 boto3                   1.35.10                python                   
 botocore                1.35.10                python                   
@@ -129,14 +130,14 @@ plotly                  5.24.0                 python
 popt                    1.19-r3                apk                      
 procps-ng               4.0.4-r0               apk                      
 psycopg2-binary         2.9.9                  python                   
-pyc                     3.12.6-r0              apk                      
+pyc                     3.12.7-r0              apk                      
 pydantic                2.8.2                  python                   
 pydantic-core           2.20.1                 python                   
 python-dateutil         2.9.0.post0            python                   
 python-dotenv           1.0.1                  python                   
-python3                 3.12.6-r0              apk                      
-python3-pyc             3.12.6-r0              apk                      
-python3-pycache-pyc0    3.12.6-r0              apk                      
+python3                 3.12.7-r0              apk                      
+python3-pyc             3.12.7-r0              apk                      
+python3-pycache-pyc0    3.12.7-r0              apk                      
 pytz                    2024.2                 python                   
 pyyaml                  6.0.2                  python                   
 readline                8.2.10-r0              apk                      
