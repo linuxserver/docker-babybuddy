@@ -60,7 +60,7 @@ libacl                  2.3.2-r0               apk
 libattr                 2.5.2-r0               apk                      
 libbsd                  0.12.2-r0              apk                      
 libbz2                  1.0.8-r6               apk                      
-libcrypto3              3.3.2-r0               apk                      
+libcrypto3              3.3.2-r1               apk                      
 libcurl                 8.9.1-r2               apk                      
 libedit                 20240517.3.1-r0        apk                      
 libexpat                2.6.3-r0               apk                      
@@ -78,7 +78,7 @@ libpanelw               6.4_p20240420-r1       apk
 libpq                   16.3-r0                apk                      
 libproc2                4.0.4-r0               apk                      
 libpsl                  0.21.5-r1              apk                      
-libssl3                 3.3.2-r0               apk                      
+libssl3                 3.3.2-r1               apk                      
 libstdc++               13.2.1_git20240309-r0  apk                      
 libturbojpeg            3.0.3-r0               apk                      
 libunistring            1.2-r0                 apk                      
@@ -93,7 +93,7 @@ markuppy                1.14                   python
 mpdecimal               4.0.0-r0               apk                      
 musl                    1.2.5-r0               apk                      
 musl-utils              1.2.5-r0               apk                      
-mysqlclient             2.2.4                  python                   
+mysqlclient             2.2.5                  python                   
 nano                    8.0-r0                 apk                      
 ncurses-terminfo-base   6.4_p20240420-r1       apk                      
 netcat-openbsd          1.226-r0               apk                      
@@ -103,7 +103,7 @@ numpy                   2.1.2                  python
 odfpy                   1.4.1                  python                   
 oniguruma               6.9.9-r0               apk                      
 openpyxl                3.1.5                  python                   
-openssl                 3.3.2-r0               apk                      
+openssl                 3.3.2-r1               apk                      
 packaging               24.1                   python                   
 pandas                  2.2.3                  python                   
 pcre                    8.45-r3                apk                      
