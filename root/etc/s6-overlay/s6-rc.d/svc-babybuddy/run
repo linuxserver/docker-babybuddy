@@ -6,7 +6,9 @@ export \
     ALLOWED_HOSTS="${ALLOWED_HOSTS:-*}" \
     TIME_ZONE="${TZ:-UTC}" \
     DEBUG="${DEBUG:-False}" \
-    SECRET_KEY="${SECRET_KEY:-$(cat /config/.secretkey)}"
+    SECRET_KEY="${SECRET_KEY:-$(cat /config/.secretkey)}" \
+    REVERSE_PROXY_AUTH=${REVERSE_PROXY_AUTH:-False} \
+    PROXY_HEADER=${PROXY_HEADER:-""}
 
 exec \
     s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 3000" \
