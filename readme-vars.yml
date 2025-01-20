@@ -6,6 +6,7 @@ project_url: "https://github.com/babybuddy/babybuddy"
 project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/babybuddy-logo.png"
 project_blurb: "[{{ project_name|capitalize }}]({{ project_url }}) is a buddy for babies! Helps caregivers track sleep, feedings, diaper changes, tummy time and more to learn about and predict baby's needs without (as much) guess work."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Family"
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
