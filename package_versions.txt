@@ -139,7 +139,7 @@ segno                   1.6.1                  python
 shadow                  4.15.1-r0              apk                     
 six                     1.17.0                 python                  
 skalibs                 2.14.1.1-r0            apk                     
-sqlite-libs             3.45.3-r1              apk                     
+sqlite-libs             3.45.3-r2              apk                     
 sqlparse                0.5.3                  python                  
 ssl_client              1.36.1-r29             apk                     
 tablib                  3.8.0                  python                  
