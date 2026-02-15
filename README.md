@@ -65,7 +65,7 @@ By default BabyBuddy uses sqlite3. To use an external database like postgresql o
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
 
 >[!NOTE]
->Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
+>Unless a parameter is flagged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
