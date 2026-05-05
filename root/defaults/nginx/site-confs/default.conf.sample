@@ -1,4 +1,4 @@
-## Version 2026/02/08 - Changelog: https://github.com/linuxserver/docker-babybuddy/commits/main/root/defaults/nginx/site-confs/default.conf.sample
+## Version 2026/05/05 - Changelog: https://github.com/linuxserver/docker-babybuddy/commits/main/root/defaults/nginx/site-confs/default.conf.sample
 
 server {
     listen 80 default_server;
@@ -17,6 +17,18 @@ server {
 
     client_max_body_size 0;
 
+    # Allow access to the ".well-known" directory
+    location ^~ /.well-known {
+        allow all;
+    }
+
+    # deny access to all dotfiles
+    location ~ /\. {
+        access_log off;
+        log_not_found off;
+        return 404;
+    }
+
     location / {
         proxy_pass http://127.0.0.1:3000;
         proxy_set_header Host $http_host;
@@ -29,18 +41,5 @@ server {
 
     location ^~ /static/ {
         root /app/www/public;
-    }
-
-    # deny access to all dotfiles
-    location ~ /\. {
-        deny all;
-        log_not_found off;
-        access_log off;
-        return 404;
-    }
-
-    # Allow access to the ".well-known" directory
-    location ^~ /.well-known {
-        allow all;
     }
 }
