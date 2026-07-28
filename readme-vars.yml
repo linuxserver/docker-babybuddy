@@ -85,6 +85,7 @@ init_diagram: |
   "babybuddy:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "08.02.26:", desc: "Existing users should update: site-confs/default.conf - Deny access to all dotfiles."}
   - {date: "27.07.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "30.06.24:", desc: "Rebase to Alpine 3.20. Existing users should update their nginx confs to avoid http2 deprecation warnings."}
   - {date: "23.12.23:", desc: "Rebase to Alpine 3.19 with php 8.3."}
