@@ -35,7 +35,7 @@ RUN \
   echo "**** install babybuddy ****" && \
   if [ -z ${BABYBUDDY_VERSION+x} ]; then \
     BABYBUDDY_VERSION=$(curl -sX GET "https://api.github.com/repos/babybuddy/babybuddy/releases/latest" \
-      | awk '/tag_name/{print $4;exit}' FS='[""]'); \
+      | jq -r '.tag_name'); \
   fi && \
   curl -o \
     /tmp/babybuddy.tar.gz -L \
