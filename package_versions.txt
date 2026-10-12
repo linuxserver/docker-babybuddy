@@ -6,7 +6,7 @@ alpine-baselayout-data  3.7.2-r1          apk
 alpine-keys             2.6-r0            apk                      
 alpine-release          3.24.2-r0         apk                      
 annotated-types         0.8.0             python                   
-apache2-utils           2.4.68-r0         apk                      
+apache2-utils           2.4.69-r0         apk                      
 apk-tools               3.0.8-r0          apk                      
 apr                     1.7.6-r0          apk                      
 apr-util                1.6.4-r0          apk                      
@@ -110,13 +110,13 @@ nano                    9.2-r0            apk
 narwhals                2.26.0            python                   
 ncurses-terminfo-base   6.6_p20260516-r0  apk                      
 netcat-openbsd          1.234.1-r0        apk                      
-nghttp2-libs            1.69.0-r0         apk                      
+nghttp2-libs            1.70.0-r0         apk                      
 nginx                   1.30.4-r1         apk                      
 oniguruma               6.9.10-r0         apk                      
 openssl                 3.5.9-r0          apk                      
 packaging               26.0              python                   
 packaging               26.3              python                   
-pcre2                   10.48-r0          apk                      
+pcre2                   10.49-r0          apk                      
 php85                   8.5.11-r0         apk                      
 php85-common            8.5.11-r0         apk                      
 php85-ctype             8.5.11-r0         apk                      
@@ -174,5 +174,5 @@ wheel                   0.46.3            python
 whitenoise              6.12.0            python                   
 xz-libs                 5.8.4-r0          apk                      
 zipp                    3.23.0            python                   
-zlib                    1.3.2-r0          apk                      
+zlib                    1.3.2-r1          apk                      
 zstd-libs               1.5.7-r2          apk                      
