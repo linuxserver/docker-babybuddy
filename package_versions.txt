@@ -166,7 +166,7 @@ tomli                   2.4.0             python
 typing-extensions       4.16.0            python                   
 typing-inspection       0.4.4             python                   
 tzdata                  2026.4            python                   
-tzdata                  2026d-r0          apk                      
+tzdata                  2026e-r0          apk                      
 uritemplate             4.2.0             python                   
 urllib3                 2.8.0             python                   
 utmps-libs              0.1.3.3-r0        apk                      
