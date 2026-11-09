@@ -29,12 +29,12 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                   
 cli-64                  UNKNOWN           binary                   
 cli-arm64               UNKNOWN           binary                   
-composer                2.11.0            binary                   
+composer                2.11.1            binary                   
 coreutils               9.11-r0           apk                      
 coreutils-env           9.11-r0           apk                      
 coreutils-fmt           9.11-r0           apk                      
 coreutils-sha512sum     9.11-r0           apk                      
-curl                    8.22.0-r0         apk                      
+curl                    8.23.0-r0         apk                      
 diff-match-patch        20241021          python                   
 dj-database-url         2.3.0             python                   
 django                  5.2.17            python                   
@@ -75,9 +75,9 @@ libattr                 2.5.2-r2          apk
 libbsd                  0.12.2-r0         apk                      
 libbz2                  1.0.8-r6          apk                      
 libcrypto3              3.5.9-r0          apk                      
-libcurl                 8.22.0-r0         apk                      
+libcurl                 8.23.0-r0         apk                      
 libedit                 20260508.3.1-r1   apk                      
-libexpat                2.9.0-r0          apk                      
+libexpat                2.10.0-r0         apk                      
 libffi                  3.5.2-r1          apk                      
 libgcc                  15.2.0-r5         apk                      
 libidn2                 2.3.8-r0          apk                      
@@ -133,7 +133,7 @@ php85-xmlwriter         8.5.12-r0         apk
 php85-zip               8.5.12-r0         apk                      
 pilkit                  3.0               python                   
 pillow                  12.3.0            python                   
-pip                     26.2.2            python                   
+pip                     26.3              python                   
 platformdirs            4.4.0             python                   
 plotly                  6.9.0             python                   
 popt                    1.19-r4           apk                      
@@ -173,5 +173,5 @@ wheel                   0.46.3            python
 whitenoise              6.12.0            python                   
 xz-libs                 5.8.4-r0          apk                      
 zipp                    3.23.0            python                   
-zlib                    1.3.2-r1          apk                      
+zlib                    1.4-r0            apk                      
 zstd-libs               1.5.7-r2          apk                      
