@@ -4,10 +4,10 @@ acl-libs                2.3.2-r1          apk
 alpine-baselayout       3.7.2-r1          apk                      
 alpine-baselayout-data  3.7.2-r1          apk                      
 alpine-keys             2.6-r0            apk                      
-alpine-release          3.24.3-r0         apk                      
+alpine-release          3.24.4-r0         apk                      
 annotated-types         0.8.0             python                   
-apache2-utils           2.4.69-r0         apk                      
-apk-tools               3.0.8-r0          apk                      
+apache2-utils           2.4.71-r0         apk                      
+apk-tools               3.0.9-r0          apk                      
 apr                     1.7.6-r0          apk                      
 apr-util                1.6.4-r0          apk                      
 argon2-libs             20190702-r5       apk                      
@@ -29,7 +29,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                   
 cli-64                  UNKNOWN           binary                   
 cli-arm64               UNKNOWN           binary                   
-composer                2.11.1            binary                   
+composer                2.11.2            binary                   
 coreutils               9.11-r0           apk                      
 coreutils-env           9.11-r0           apk                      
 coreutils-fmt           9.11-r0           apk                      
@@ -54,8 +54,8 @@ djangorestframework     3.18.1            python
 faker                   36.2.3            python                   
 findutils               4.10.0-r1         apk                      
 gdbm                    1.26-r0           apk                      
-git                     2.54.0-r0         apk                      
-git-init-template       2.54.0-r0         apk                      
+git                     2.54.1-r0         apk                      
+git-init-template       2.54.1-r0         apk                      
 gui                     UNKNOWN           binary                   
 gui-32                  UNKNOWN           binary                   
 gui-64                  UNKNOWN           binary                   
@@ -70,7 +70,7 @@ jmespath                1.1.0             python
 jpeg                    9f-r0             apk                      
 jq                      1.8.2-r0          apk                      
 jupyterlab-plotly       6.9.0             npm     (+1 duplicate)   
-libapk                  3.0.8-r0          apk                      
+libapk                  3.0.9-r0          apk                      
 libattr                 2.5.2-r2          apk                      
 libbsd                  0.12.2-r0         apk                      
 libbz2                  1.0.8-r6          apk                      
@@ -87,7 +87,7 @@ libjpeg-turbo-utils     3.1.3-r0          apk
 libmd                   1.2.0-r0          apk                      
 libncursesw             6.6_p20260516-r0  apk                      
 libpanelw               6.6_p20260516-r0  apk                      
-libpq                   18.6-r0           apk                      
+libpq                   18.7-r0           apk                      
 libproc2                4.0.6-r0          apk                      
 libpsl                  0.21.5-r3         apk                      
 libssl3                 3.5.9-r0          apk                      
@@ -96,7 +96,7 @@ libturbojpeg            3.1.3-r0          apk
 libunistring            1.4.2-r0          apk                      
 libuuid                 2.42.3-r1         apk                      
 libxml2                 2.13.9-r2         apk                      
-libxslt                 1.1.43-r3         apk                      
+libxslt                 1.1.43-r4         apk                      
 libzip                  1.11.4-r2         apk                      
 linux-pam               1.7.1-r2          apk                      
 logrotate               3.22.0-r0         apk                      
@@ -105,7 +105,7 @@ more-itertools          10.8.0            python
 mpdecimal               4.0.1-r0          apk                      
 musl                    1.2.6-r3          apk                      
 musl-utils              1.2.6-r3          apk                      
-mysqlclient             2.3.0             python                   
+mysqlclient             2.3.1             python                   
 nano                    9.3-r0            apk                      
 narwhals                2.26.0            python                   
 ncurses-terminfo-base   6.6_p20260516-r0  apk                      
@@ -165,7 +165,7 @@ tomli                   2.4.0             python
 typing-extensions       4.16.0            python                   
 typing-inspection       0.4.4             python                   
 tzdata                  2026.4            python                   
-tzdata                  2026e-r0          apk                      
+tzdata                  2026f-r0          apk                      
 uritemplate             4.2.0             python                   
 urllib3                 2.8.0             python                   
 utmps-libs              0.1.3.3-r0        apk                      
